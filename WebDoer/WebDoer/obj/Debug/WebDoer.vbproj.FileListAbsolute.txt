@@ -1,0 +1,10 @@
+D:\Dev\MSPA\WebDoer\WebDoer\bin\Debug\WebDoer.exe.config
+D:\Dev\MSPA\WebDoer\WebDoer\bin\Debug\WebDoer.exe
+D:\Dev\MSPA\WebDoer\WebDoer\bin\Debug\WebDoer.pdb
+D:\Dev\MSPA\WebDoer\WebDoer\bin\Debug\WebDoer.xml
+D:\Dev\MSPA\WebDoer\WebDoer\obj\Debug\WebDoer.vbprojResolveAssemblyReference.cache
+D:\Dev\MSPA\WebDoer\WebDoer\obj\Debug\WebDoer.Resources.resources
+D:\Dev\MSPA\WebDoer\WebDoer\obj\Debug\WebDoer.vbproj.GenerateResource.Cache
+D:\Dev\MSPA\WebDoer\WebDoer\obj\Debug\WebDoer.exe
+D:\Dev\MSPA\WebDoer\WebDoer\obj\Debug\WebDoer.xml
+D:\Dev\MSPA\WebDoer\WebDoer\obj\Debug\WebDoer.pdb
