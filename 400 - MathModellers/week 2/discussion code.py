@@ -21,13 +21,13 @@ from numpy.linalg import *
 # and converted to 3x1 matrix and then a 1x3 matrix using the transpose
 # function. Similar steps are taken for the matrix A.
 
-rhs= [96, 87, 74]
+rhs= [10, 6, 5, 7]
 rhs=matrix(rhs)
 rhs=transpose(rhs)
 print ('\nRight Hand Side of Equation')
 print rhs
 
-A =[[1, 3, 4], [2, 1, 3], [4, 2, 1]]
+A =[[2,90,2,0], [1,80,2,3],[1,20,3,7],[2,30,0,7]]
 A= matrix(A)
 print ('\nMatrix A')
 print A
@@ -48,8 +48,8 @@ print IA
 # Verify inverse by multiplying matrix A and its inverse IA.
 
 print ('\nIdentity Matrix')
-I= dot(A,IA)
-I= int_(I)               # This converts floating point to integer.
+I= dot(IA,A)
+I= (I)               # This converts floating point to integer.
 print I
 
 # Solve the system of equations and convert to integer values.
@@ -64,41 +64,15 @@ print result
 # There is a more efficient way to do this with the linalg.solve() function.
 
 print ('\nIllustration of solution with linalg.solve(,) function')
-result2= linalg.solve(A,rhs)
-print int_(result2)    # This converts floating point to integer.
+result2= linalg.solve(float_(A),float_(rhs))
+print result2  # This converts floating point to integer.
 
-# Some square matrices do not have inverses. The following example shows
-# how this is handled with numpy.  Note the magnitude of the elements.
-
-print ('\nExample of an inverse matrix for inconsistent equations')
-A= [[1,2,3],[-3,-2,-1], [-1,0,1]]
-A= array(A)
-IA= inv(A)
-print IA
-
-# Exercises: 
-
-# Part 1. Refer to Lial Section 2.5 Example 2.  Write the code to 
-# reproduce the results in the example.  Form the matrix A, find its inverse
-# and verify such by multiplying the two to form the identity matrix.
-# Show the code, matrix A, inverse of A and the Identity matrix.
-R= [[1,0,1],[2,-2,-1],[3,0,0]]
-R= matrix(R)
+eq1=result[0,0]*2+result[1,0]*90+2*result[2,0]
+eq2=result[0,0]+result[1,0]*80+2*result[2,0]+3*result[3,0]
+eq3=result[0,0]+result[1,0]*20+3*result[2,0]+7*result[3,0]
+eq4=result[0,0]*2+result[1,0]*30+7*result[3,0]
 print '\n'
-print R
-IR = inv(R)
-print '\n'
-print IR
-IoIandIR = dot(R,IR)
-print '\n'
-print IoIandIR
-
-# Part 2. Refer to Lial Section 2.5 page 96 problem #1.  Write the code
-# which solves the problem.  Use linalg.solve(,).
-M= [[2, 4, 2], [2, 1, 2], [2, 1, 3]] 
-M= matrix(M)
-O= transpose(matrix([72,48,60]))
-O= matrix([[72],[48],[60]])
-result5= linalg.solve(M,O)
-print '\n'
-print int_(result5)
+print ('\n equation 1 output: %d') %eq1
+print ('\n equation 2 output: %d') %eq2
+print ('\n equation 3 output: %d') %eq3
+print ('\n equation 4 output: %d') %eq4
