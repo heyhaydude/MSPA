@@ -5,13 +5,17 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>45963500-8dab-4102-b79e-10d40c8b2925</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>maximinification.py</StartupFile>
+    <StartupFile>Session 3 Module 3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>maximinification</Name>
     <RootNamespace>maximinification</RootNamespace>
+    <InterpreterId>
+    </InterpreterId>
+    <InterpreterVersion>
+    </InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>

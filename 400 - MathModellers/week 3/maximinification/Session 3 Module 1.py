@@ -8,8 +8,8 @@
 
 import matplotlib.pyplot 
 from matplotlib.pyplot import *
-import numpy 
-from numpy import arange
+import numpy as np
+from numpy import * 
 
 # The first example will be from Lial Chapter 3 Section 3.1 Example 2.
 # A graph of the inequality x - 4y > 4 will be shown. The first step is
@@ -91,3 +91,29 @@ show()
 # Figure 10.  Compare your code and the resulting plot to the answer sheet.
 
 
+figure()
+x= arange(-1,12.1,0.1)
+y1= -.5*x+6.0
+y2= 12.0-2*x  
+
+xlim(-1,12)
+ylim(-1,12)
+hlines(0,-1,12,color='k')
+vlines(0,-1,14,color='k')
+grid(True)
+
+xlabel('x-axis')
+ylabel('y-axis')
+title ('Shaded Area Shows the Feasible Region')
+
+plot(x,y1,color='b')
+plot(x,y2,color='r')
+legend(['first','second'])
+
+# The simplest approach for filling a polygon is to locate the
+# corner points. Matplotlib will fill within these points.
+
+x= [0.0, 0.0, 6.67,5.0]
+y= [0.0, 4.0, .67, 0.0]
+fill(x,y)
+show()
