@@ -73,6 +73,8 @@ obj= transpose(obj)
 corners= matrix([x,y])
 corners= transpose(corners)
 result= dot(corners,obj)
+print(corners)
+print (result)
 print ('Value of Objective Function at Each Corner Point\n'), result
 
 # Exercise: Using the matrix methods shown above, verify the calculations
