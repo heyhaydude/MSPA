@@ -1,6 +1,8 @@
 #from scipy.misc import derivative
 #import numpy as np
-#import matplotlib.pyplot as plt#f = lambda x : np.exp(-x)*np.sin(x)
+#import matplotlib.pyplot as plt
+
+#f = lambda x : np.exp(-x)*np.sin(x)
 #x = np.arange(0,10, 0.1)
 #first = derivative(f,x,dx=1,n=1)
 #second = derivative(f,x,dx=1,n=2)

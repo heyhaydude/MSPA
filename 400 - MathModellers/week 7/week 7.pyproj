@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a461154f-355b-4a25-8b6b-3239f03b19a4</ProjectGuid>
+    <ProjectGuid>034d2d8d-8c1d-4e31-be5d-2ebb8bef93dc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Session+6+Module+2.py</StartupFile>
+    <StartupFile>week 7 exp.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>week 6</Name>
-    <RootNamespace>week 6</RootNamespace>
+    <Name>week 7</Name>
+    <RootNamespace>week 7</RootNamespace>
     <InterpreterId>{7ff8b92f-8551-4294-9c9e-f04d648de723}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
@@ -24,9 +24,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Session+6+Module+1.py" />
-    <Compile Include="Session+6+Module+2.py" />
-    <Compile Include="week_6.py" />
+    <Compile Include="Session+7+Module+1.py" />
+    <Compile Include="Session+7+Module+2+revised.py" />
+    <Compile Include="week 7 exp.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="week 7 natural log derivative.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="week_7_poly_deriv.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{7ff8b92f-8551-4294-9c9e-f04d648de723}\2.7" />
