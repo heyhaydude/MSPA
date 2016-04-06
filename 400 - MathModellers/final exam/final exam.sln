@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "final exam", "final exam.pyproj", "{D9CF6EB7-F5BB-4F0F-9306-4E97078C19E1}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "midterms", "..\week 5\midterms\midterms.pyproj", "{257CF166-CA70-45EE-A282-1662447782F6}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "week 6", "..\week 6\week 6\week 6.pyproj", "{A461154F-355B-4A25-8B6B-3239F03B19A4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "week 7", "..\week 7\week 7.pyproj", "{034D2D8D-8C1D-4E31-BE5D-2EBB8BEF93DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9CF6EB7-F5BB-4F0F-9306-4E97078C19E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CF6EB7-F5BB-4F0F-9306-4E97078C19E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257CF166-CA70-45EE-A282-1662447782F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257CF166-CA70-45EE-A282-1662447782F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A461154F-355B-4A25-8B6B-3239F03B19A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A461154F-355B-4A25-8B6B-3239F03B19A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034D2D8D-8C1D-4E31-BE5D-2EBB8BEF93DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034D2D8D-8C1D-4E31-BE5D-2EBB8BEF93DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

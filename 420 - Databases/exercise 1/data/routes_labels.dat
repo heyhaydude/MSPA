@@ -1,0 +1,1 @@
+AirlineCode, AirlineId, SourceAirportCode, SourceAirportId, DestAirportCode, DestAirportId, Codeshare, Stops, Equipment
