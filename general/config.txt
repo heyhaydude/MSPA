@@ -1,2 +1,0 @@
-canvas,canvas.northwestern.edu,mth966,amamatt2NRRN!
-caesar,caesar.northwestern.edu,mth966,amamatt2NRRN!
